@@ -16,6 +16,7 @@ type Config struct {
 		KeyPath  string `json:"keyPath"`
 		Key      string `json:"key"`
 	} `json:"server"`
+	Mongo
 }
 
 /*SetConfig Initializing the config*/

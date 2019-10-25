@@ -1,0 +1,2 @@
+use eventStorm
+db.createCollection("apiUsers")

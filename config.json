@@ -3,5 +3,8 @@
         "tls":true,
         "certPath":"./tls/certificate.crt",
         "keyPath":"./tls/certificate.key"
+    },
+    "mongo":{
+        "addr": "localhost:27017"
     }
 }

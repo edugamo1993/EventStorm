@@ -4,6 +4,7 @@ import "encoding/json"
 
 /*User Type for user data*/
 type User struct {
+	ID          string `json:"_id"`
 	Username    string `json:"username"`
 	Password    string `json:"password"`
 	Birthday    string `json:"birthday"`
