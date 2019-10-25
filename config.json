@@ -1,0 +1,7 @@
+{
+    "server":{
+        "tls":true,
+        "certPath":"./tls/certificate.crt",
+        "keyPath":"./tls/certificate.key"
+    }
+}
