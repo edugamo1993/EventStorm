@@ -1,0 +1,9 @@
+use eventStorm
+db.createCollection("users")
+db.createUser(
+  {
+    user: "user1",
+    pwd: "example",
+    roles: [ { role: "readWrite", db: "eventStorm" } ]
+  }
+);

@@ -24,6 +24,7 @@ func (c *Config) SetConfig() {
 	viper.SetConfigType("json")
 	viper.AddConfigPath("./")
 	viper.Unmarshal(&c)
+	fmt.Println(c)
 }
 
 //IsHTTPS returns true if is https and false if is http

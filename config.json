@@ -5,6 +5,9 @@
         "keyPath":"./tls/certificate.key"
     },
     "mongo":{
-        "addr": "localhost:27017"
+        "addr": "localhost:27017",
+        "db": "eventStorm",
+        "user": "user1",
+        "password": "example"
     }
 }
